@@ -58,3 +58,24 @@ This project demonstrates the integration of **Network Security**, **Python Auto
 - 📦 **Modular Design** allowing the detection logic and AI playbook to be easily extended.
 
 ---
+
+---
+
+# 🛠️ Technology Stack
+
+| Category | Technology |
+|----------|------------|
+| Programming Language | Python 3 |
+| Operating Systems | Ubuntu Linux, Kali Linux |
+| Network Analysis | TShark, Wireshark |
+| Virtualization | Oracle VirtualBox |
+| Network Protocol | ICMP |
+| Data Format | JSON, CSV, PCAP |
+| AI Platform | Airia AI |
+| API Communication | REST API |
+| Security Framework | MITRE ATT&CK Framework |
+| Detection Method | Threshold-Based Packet Analysis |
+| Version Control | Git & GitHub |
+
+This project combines traditional network traffic analysis with AI-powered security automation to simulate the workflow of a modern Tier-1 Security Operations Center (SOC) analyst.
+---
