@@ -1,85 +1,60 @@
 # 🛡️ AI-Based Junior SOC Analyst
 
-> **Automated Network Threat Detection & AI-Driven SOC Triage using Python, Tshark, and Airia AI**
+> **Automated Network Threat Detection & AI-Driven SOC Triage using Python, TShark, and Airia AI**
 
 ![Lab Architecture](screenshots/01-Lab-Architecture.png)
 
----
+<p align="center">
 
-## 📖 Project Overview
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%7C%20Kali-orange?logo=linux)
+![TShark](https://img.shields.io/badge/TShark-Network%20Analysis-green)
+![Airia AI](https://img.shields.io/badge/Airia-AI%20Powered-purple)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
-AI-Based Junior SOC Analyst is a cybersecurity automation project that simulates the workflow of a Tier-1 Security Operations Center (SOC) analyst.
-
-The solution captures live network traffic using **TShark**, analyzes packet activity with **Python**, detects suspicious network behavior based on configurable thresholds, generates structured JSON alerts, and submits them to an **AI-powered SOC Analyst** built using **Airia AI**.
-
-The AI agent performs automated threat triage using a custom SOC playbook and returns:
-
-- Threat Classification
-- Risk Score
-- Confidence Level
-- MITRE ATT&CK Mapping
-- Recommended Analyst Actions
-- Executive Summary
-
-This project demonstrates how AI can assist SOC analysts by automating the initial investigation and triage of network security alerts.
+</p>
 
 ---
 
-## 🚀 Key Features
+# 📖 Project Overview
 
-- Live network traffic capture using TShark
-- Automated packet analysis using Python
-- Threshold-based anomaly detection
-- Automatic JSON alert generation
-- REST API integration with Airia AI
-- AI-powered SOC alert triage
-- MITRE ATT&CK framework mapping
-- Risk scoring and confidence assessment
-- Executive-level incident summary
+Modern Security Operations Centers (SOCs) process thousands of security alerts every day, making rapid and accurate triage essential. This project demonstrates how Artificial Intelligence can automate the initial investigation of network security events, helping analysts prioritize alerts and reduce manual effort.
+
+**AI-Based Junior SOC Analyst** is an end-to-end cybersecurity automation project that simulates the workflow of a Tier-1 SOC analyst. The solution captures live network traffic using **TShark**, analyzes packet activity with a custom **Python** automation script, detects suspicious network behavior based on configurable thresholds, generates structured **JSON** alerts, and submits them to an **AI-powered SOC Analyst** built on **Airia AI**.
+
+The AI agent follows a custom SOC playbook to automatically analyze the alert, classify the threat, calculate a risk score, map the activity to the **MITRE ATT&CK Framework**, recommend appropriate analyst actions, and generate an executive summary.
+
+This project demonstrates the integration of **Network Security**, **Python Automation**, **Packet Analysis**, **REST APIs**, and **Artificial Intelligence** to build an intelligent SOC workflow that reduces manual analysis while improving the speed and consistency of security investigations.
 
 ---
 
-## 🏗️ Lab Architecture
+## 🎯 Project Objectives
 
-![Lab Architecture](screenshots/01-Lab-Architecture.png)
+- Capture live network traffic using TShark.
+- Analyze packet activity using Python automation.
+- Detect suspicious network behavior based on configurable thresholds.
+- Generate structured JSON security alerts automatically.
+- Integrate with Airia AI through its REST API.
+- Automate SOC alert triage using a custom SOC playbook.
+- Provide risk scoring, MITRE ATT&CK mapping, and recommended analyst actions.
+- Demonstrate how AI can support Tier-1 SOC analysts during incident triage.
 
----
-
-## 🔄 Project Workflow
-
-1. Ubuntu generates ICMP network traffic.
-2. Kali Linux captures traffic using TShark.
-3. Python converts captured packets into CSV format.
-4. Network traffic is analyzed based on packet thresholds.
-5. A structured JSON alert is generated for suspicious activity.
-6. The alert is sent to Airia AI through the REST API.
-7. Airia AI performs automated SOC triage using a custom playbook.
-8. A structured security assessment is returned with recommendations.
 
 ---
 
-## 🖥️ Lab Environment
+# ✨ Key Features
 
-| Component | Purpose |
-|-----------|---------|
-| Ubuntu Linux | Traffic Generator |
-| Kali Linux | Packet Capture & Traffic Analysis |
-| Python | Automation & Detection Logic |
-| TShark | Packet Capture |
-| Airia AI | AI-Based SOC Triage |
-| REST API | Alert Submission |
+- 📡 **Live Network Traffic Capture** using TShark for real-time packet collection.
+- 🐍 **Python-Based Automation** to analyze captured traffic and identify suspicious network activity.
+- 📊 **Threshold-Based Detection Logic** to detect abnormal packet volume from source IP addresses.
+- 📄 **Automatic JSON Alert Generation** containing structured security event information.
+- 🤖 **AI-Powered SOC Triage** using Airia AI and a custom SOC playbook.
+- 🎯 **Threat Classification** based on structured alert data.
+- 📈 **Risk Scoring & Confidence Assessment** for prioritizing security incidents.
+- 🛡️ **MITRE ATT&CK Mapping** to align detected activity with industry-standard attack techniques.
+- 📋 **Automated Analyst Recommendations** to assist Tier-1 SOC analysts during investigations.
+- 🔗 **REST API Integration** for seamless communication between Python automation and Airia AI.
+- 💻 **Virtual Lab Environment** built using Ubuntu and Kali Linux.
+- 📦 **Modular Design** allowing the detection logic and AI playbook to be easily extended.
 
 ---
-
-## ⚙️ Technologies Used
-
-- Python 3
-- TShark
-- Wireshark
-- Kali Linux
-- Ubuntu Linux
-- VirtualBox
-- Airia AI
-- REST API
-- JSON
-- MITRE ATT&CK Framework
