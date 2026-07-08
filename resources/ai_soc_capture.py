@@ -24,8 +24,8 @@ AIRIA_API_URL = "INSERT AIRIA API URL HERE"
 AIRIA_API_KEY = "INSERT AIRIA API KEY HERE"
 
 # Metadata
-DESTINATION_HOST = "Internal-server"
-DESTINATION_IP = "192.168.0.206"
+DESTINATION_HOST = "Kali-SOC-Server"
+DESTINATION_IP = "192.168.56.101"
 
 
 # ------------------------------------------------
@@ -47,7 +47,7 @@ def capture_traffic():
     capture_cmd = [
         "tshark",
         "-i", INTERFACE,
-        "-f", "icmp and dst host 192.168.0.206", 
+        "-f", "icmp and dst host 192.168.56.101", 
         "-a", f"duration:{CAPTURE_DURATION}",
         "-w", PCAP_FILE
     ]
