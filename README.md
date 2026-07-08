@@ -317,6 +317,7 @@ Airia Response  : HTTP 200 OK
 
 
 ---
+# 📸 Project Screenshots
 
 ## 🤖 Airia AI – Junior SOC Analyst
 
