@@ -59,7 +59,7 @@ This project demonstrates the integration of **Network Security**, **Python Auto
 
 ---
 
----
+
 
 # 🛠️ Technology Stack
 
@@ -77,5 +77,36 @@ This project demonstrates the integration of **Network Security**, **Python Auto
 | Detection Method | Threshold-Based Packet Analysis |
 | Version Control | Git & GitHub |
 
-This project combines traditional network traffic analysis with AI-powered security automation to simulate the workflow of a modern Tier-1 Security Operations Center (SOC) analyst.
+
+---
+
+
+# 🖥️ Lab Environment
+
+The project was implemented in a virtualized cybersecurity lab to simulate a real-world Security Operations Center (SOC) workflow. Ubuntu Linux was used to generate network traffic, while Kali Linux acted as the monitoring server responsible for packet capture, traffic analysis, alert generation, and AI-powered threat triage.
+
+| Component | Description |
+|-----------|-------------|
+| Host Machine | Windows 11 |
+| Virtualization Platform | Oracle VirtualBox |
+| Traffic Generator | Ubuntu Linux |
+| Monitoring Server | Kali Linux |
+| Packet Capture Tool | TShark |
+| Programming Language | Python 3 |
+| AI Platform | Airia AI |
+| Communication Method | REST API |
+| Detection Logic | Threshold-Based Packet Analysis |
+| Alert Format | JSON |
+| Captured Traffic | ICMP |
+
+### Lab Topology
+
+| Source | Destination | Purpose |
+|---------|-------------|---------|
+| Ubuntu Linux | Kali Linux | Generate ICMP traffic for analysis |
+| Kali Linux | Airia AI | Submit generated alerts through REST API |
+| Airia AI | Kali Linux | Return automated SOC triage report |
+
+This isolated virtual lab provides a safe environment to simulate network activity, analyze captured packets, automate alert generation, and evaluate AI-assisted SOC investigations without affecting production systems.
+
 ---
