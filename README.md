@@ -314,15 +314,7 @@ Status          : Suspicious Traffic Detected
 Airia Response  : HTTP 200 OK
 ```
 
----
 
-# 📸 Project Screenshots
-
-## 🏗️ Lab Architecture
-
-Overall architecture of the AI-Based Junior SOC Analyst workflow.
-
-![Lab Architecture](screenshots/01-Lab-Architecture.png)
 
 ---
 
